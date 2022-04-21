@@ -11,6 +11,7 @@ pipeline {
     post {
         always {
             // deleteDir()
+            echo 'Bypass cleanup.'
         }
     }
 }
